@@ -1,0 +1,12 @@
+/**
+* Main Stylesheet File - for Costumized Styles
+* Joao Devson Mucavel
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-content{
+    padding: 30% 0;
+}
