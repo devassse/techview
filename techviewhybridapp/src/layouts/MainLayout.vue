@@ -25,6 +25,7 @@
         <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
           <q-list padding>
             <q-item 
+              to="/"
               active
               clickable 
               v-ripple>
@@ -37,16 +38,19 @@
             </q-item>
             
 
-            <q-item clickable v-ripple>
-              <q-item-section avatar>
-                <q-icon name="star"></q-icon>
-              </q-item-section>
-              <q-item-section>
-                Notícias
-              </q-item-section>
+            <q-item 
+              to="/news"
+              clickable 
+              v-ripple>
+                <q-item-section avatar>
+                  <q-icon name="star"></q-icon>
+                </q-item-section>
+                <q-item-section>
+                  Notícias
+                </q-item-section>
             </q-item>
 
-            <q-item clickable v-ripple>
+            <q-item to="/videos" clickable v-ripple>
               <q-item-section avatar>
                 <q-icon name="movie"></q-icon>
               </q-item-section>
@@ -56,7 +60,7 @@
             </q-item>
 
             <hr>
-            <q-item clickable v-ripple>
+            <q-item to="/notifications" clickable v-ripple>
               <q-item-section avatar>
                 <q-icon name="drafts"></q-icon>
               </q-item-section>
