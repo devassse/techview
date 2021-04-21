@@ -8,6 +8,12 @@ const routes = [
     ]
   },
 
+  {
+    path: '/portal',
+    component: () => import('layouts/WebsiteLayout.vue'),
+  },
+
+
   // Always leave this as last one,
   // but you can also remove it
   {
