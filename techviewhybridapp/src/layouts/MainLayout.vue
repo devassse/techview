@@ -25,8 +25,7 @@
         <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
           <q-list padding>
             <q-item 
-              to="/"
-              active
+              to="/dashboard"
               clickable 
               v-ripple>
                 <q-item-section avatar>
@@ -71,7 +70,7 @@
 
             <hr>
             <q-item 
-              to="/portal"
+              to="/dashboard"
               target="_blank"
               clickable 
               v-ripple>
